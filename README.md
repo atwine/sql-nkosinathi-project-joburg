@@ -6,6 +6,14 @@ All inference runs fully offline via [Ollama](https://ollama.com) — no cloud A
 
 ---
 
+## Demo
+
+![RAG system answering sample questions](assets/image.png)
+
+*The system retrieving and answering questions about household roles, village residents, and exit observations — showing the retrieve → rerank → generate pipeline in action.*
+
+---
+
 ## How It Works
 
 ```
