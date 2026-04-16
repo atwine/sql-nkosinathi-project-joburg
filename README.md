@@ -113,3 +113,12 @@ Key constants in `main.py`:
 
 - If `OLLAMA_HOST` is set to `0.0.0.0` (server bind address), the pipeline automatically remaps it to `127.0.0.1` for the Python client.
 - The `chroma_db/` directory is git-ignored. Delete it to force a full re-embedding (e.g. after changing the document format).
+
+---
+
+## Potential Future Updates
+
+- **Narrative-based embeddings** — `Data/Narative Data/hdss_synthetic_50_narratives.jsonl` contains full prose descriptions for each record (migration history, household context, observation events). Switching the pipeline to embed these narratives instead of the structured field format would improve semantic retrieval quality, especially for open-ended conceptual queries.
+- **Larger dataset support** — extend ingestion to handle thousands of records with chunking and metadata filtering.
+- **Web UI** — add a Gradio or Streamlit front-end for non-technical users.
+- **Reranking** — add a cross-encoder reranker step between retrieval and generation for higher answer accuracy.
