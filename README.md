@@ -1,5 +1,13 @@
 # RAG Pipeline — HDSS Demographic Data
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Ollama](https://img.shields.io/badge/Ollama-local%20LLM-black?logo=ollama)](https://ollama.com)
+[![Embedder](https://img.shields.io/badge/Embedder-nomic--embed--text-green)](https://ollama.com/library/nomic-embed-text)
+[![LLM](https://img.shields.io/badge/LLM-gemma3%3A4b-orange)](https://ollama.com/library/gemma3)
+[![Reranker](https://img.shields.io/badge/Reranker-ms--marco--MiniLM-purple)](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2)
+[![Offline](https://img.shields.io/badge/Inference-100%25%20Offline-brightgreen)](https://ollama.com)
+
 A local, privacy-preserving Retrieval-Augmented Generation (RAG) system for querying Health and Demographic Surveillance System (HDSS) data using natural language.
 
 All inference runs fully offline via [Ollama](https://ollama.com) — no cloud API calls, no data leaves your machine.
