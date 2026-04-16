@@ -1,0 +1,12 @@
+# Vector database (large binary, rebuilt automatically on first run)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
